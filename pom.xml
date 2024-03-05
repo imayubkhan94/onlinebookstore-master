@@ -72,21 +72,4 @@
 			<version>3.1.0</version>
 		</dependency>
 	</dependencies>
-	<distributionManagement>
-  <repository>
-    <id>maven-releases</id>
-    <!-- CHANGE HERE by your team Nexus server -->
-    <url>http://15.206.174.182:8081/repository/java.app/</url>
-  </repository>
-  <snapshotRepository>
-    <id>maven-snapshots</id>
-    <!-- CHANGE HERE by your team Nexus server -->
-    <url>http://15.206.174.182:8081/repository/java.app/</url>
-  </snapshotRepository>
-</distributionManagement>
-	<repository>
-  <id>maven-releases</id>
-  <name>maven-releases</name>
-  <url>http://15.206.174.182:8081/repository/java.app/</url>
-</repository>
 </project>
